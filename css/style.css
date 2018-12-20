@@ -1,20 +1,4 @@
-th, td {
-	width: 12%;
-	padding: 15px;
-}
 
-.border img {
-  max-width: 80%;
-}
-
-table {
-	width: 100%;
-}
-
-table, th, td {
-    border: 1px solid black;
-	text-align: center;
-}
 
 body, html {
   height: 100%;
@@ -22,13 +6,6 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-
-h2 {
-	font: 18px "Lato", sans-serif;
-	color: black;
-	letter-spacing: 5px;
-}
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -36,11 +13,21 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/top.png");
+  min-height: 100%;
 }
 
-.bgimg-1 {
-  background-image: url("pic.jpg");
-  min-height: 80%;
+.bgimg-2 {
+  background-image: url("../images/yes.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/class.jpeg");
+  min-height: 400px;
 }
 
 .caption {
@@ -52,12 +39,17 @@ h2 {
   color: #000;
 }
 
+a {
+	color: white;
+}
+
 .textBox {
 	color:#ddd; 
 	background-color:#282E34; 
 	text-align: center; 
 	padding: 50px 80px; 
 	text-align: justify;
+	font-size: 20px;
 }
 
 .caption span.border {
@@ -68,13 +60,21 @@ h2 {
   letter-spacing: 10px;
 }
 
+.border img {
+  max-width: 80%;
+}
+
+.git {
+	border-radius: 24px;
+}
+
 .about {
 	color: #777; 
-	max-width: 95%;
 	background-color:white; 
 	text-align:center; 
 	padding: 50px 80px; 
 	text-align: justify;
+	font-size: 20px;
 }
 
 h3 {
@@ -87,6 +87,20 @@ h3 {
 
 .dis {
 	position: relative;
+}
+
+h2 {
+	border-radius: 2px;
+	margin-top: 50px;
+	max-width: 380px;
+	padding: 3px;
+	background-color: #FFEAE9;
+	font: 18px "Lato", sans-serif;
+	color: black;
+}
+h2 img {
+
+	vertical-align: middle;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
