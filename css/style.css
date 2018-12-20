@@ -16,7 +16,7 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../images/top.png");
+  background-image: url("../images/joey_the_kangaroo.png");
   min-height: 100%;
 }
 
@@ -28,6 +28,20 @@ body, html {
 .bgimg-3 {
   background-image: url("../images/class.jpeg");
   min-height: 400px;
+}
+
+.container-wrapper--black { 
+  background-color: #282E34; 
+}
+
+.section-container {
+  margin: auto;
+  padding: 80px;
+  width: 800px;
+}
+
+.text-center { 
+  text-align: center;
 }
 
 .caption {
@@ -99,8 +113,18 @@ h2 {
 	color: black;
 }
 h2 img {
-
 	vertical-align: middle;
+}
+
+.footer { 
+  text-align: center;
+  margin: 40px 0 40px 0;
+  width: 100vw;
+}
+
+.contact-list {
+  margin: auto; 
+  width: 400px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
