@@ -1,6 +1,32 @@
+table, td {
+    border: 1px dashed black;
+	text-align: center;
+}
+
+.noT {
+	border-top: none;
+}
+
+.noB {
+	border-bottom: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 th, td {
-	width: 12%;
-	padding: 15px;
+	width: 20%;
+	padding: 10px;
 }
 
 .border img {
@@ -8,13 +34,11 @@ th, td {
 }
 
 table {
+    border: 1px solid black;
 	width: 100%;
 }
 
-table, th, td {
-    border: 1px solid black;
-	text-align: center;
-}
+
 
 body, html {
   height: 100%;
@@ -29,16 +53,13 @@ h2 {
 	letter-spacing: 5px;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.bgimg-1 {
   background-image: url("../images/pic.jpg");
   min-height: 80%;
 }
@@ -50,14 +71,6 @@ h2 {
   width: 100%;
   text-align: center;
   color: #000;
-}
-
-.textBox {
-	color:#ddd; 
-	background-color:#282E34; 
-	text-align: center; 
-	padding: 50px 80px; 
-	text-align: justify;
 }
 
 .caption span.border {
@@ -85,9 +98,6 @@ h3 {
 	color: #111;
 }
 
-.dis {
-	position: relative;
-}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
