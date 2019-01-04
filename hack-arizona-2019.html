@@ -4,6 +4,10 @@
 		<title>firstByte at Hack AZ</title>
 		<link rel="stylesheet" href="./css/hack-styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<!-- jQuery Modal -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	</head>
 	<body>
 		<div class="bgimg-1">
@@ -13,59 +17,139 @@
 		</div>
 		<div class="about">
 			<h3>Hack Arizona 2019 Workshop Schedule</h3> 
-			<a href="map.png" target="_blank">Map of ILC</a>
+			<a href="map.png" target="_blank">Map of ILC</a><br>
+			<a href="advice.pdf" target="_blank">Not sure which workshops to attend?</a>
 			<p>Under construction - workshop information coming soon!</p>
 			<table>
 				<tr>
-					<th></th><th></th>	<th>Friday</th> 
+					<th></th><th>Friday</th> 
 				</tr>
 				<tr>
 					<th>21:30</th> 
-					<td class="noB">	
-						<div id="dropdown">
-							<a id="dropdown" href="javascript:void(0)">Static Web Development</a></td>
-							<div class="dropdown-content">
-								<b>Great for beginners!</b>
-								<br/>Build a simple website with 
-								HTML, CSS, and Github Pages.<br>
-								<b>Presented by:</b>Hannah Parraga, Director of Education Initiatives, Hack Arizona<br>
-								<b>Location:</b> ILC 141<br>
-								<b>You will need:</b>
-								<a href="https://github.com/" target="_blank">*A Github Account</a>
-								<b>Extra resources:</b>
-								<a href="https://www.w3schools.com/" target="_blank">*W3Schools </a>
-								<a href="https://guides.github.com/features/pages/" target="_blank">*Github Pages</a>
-							</div>
-						</div>
-					</td>
-					<td class="noB">Augumented Reality</td> <td class="noB"> Growth Engineering </td> <td class="noB">Google Cloud</td>
-				</tr>
-
-
-				<tr>
-					<th>22:00</th> <td class="noT noB"></td> <td class="noT noB"></td> <td class="noT"> </td> <td class="noT"> </td>
-				</tr>
-				<tr>
-					<th>22:30</th> <td class="noT noB"></td> <td class="noT noB"></td> <td class="noB">Decentralized Applications</td> <td class="noB"><b>Available</b></td>
-				</tr>
-				<tr>
-					<th>23:00</th> <td class="noT"></td> <td class="noT"></td> <td class="noT"> </td> <td class="noT"> </td>
-				</tr>
-				<tr>
-					<th>23:30</th> <td class="noB">JavaScript</td>	<td class="noB">Virtual Reality</td> <td class="noB">Java</td> <td class="noB">Deploying Applications with React and Gatsby</td>
+					<td class="noB"><a href="#web" rel="modal:open">Static Web Development</a></td>
+					<div id="web" class="modal">
+						<b>Great for beginners!</b>
+						<br/>Build a simple website with HTML, CSS, and Github Pages.<br/>
+						<b>Presented by:</b><br>Hannah Parraga, Director of Education Initiatives, Hack Arizona<br/>
+						<b>Location:</b> ILC 141<br/>
+						<b>You will need: </b><a href="https://github.com/" target="_blank">A Github Account</a><br/>
+						<b>Extra resources:</b>
+						<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+						<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+					</div>
+					<td class="noB"><a href="#ar" rel="modal:open">Augumented Reality with Unity</a></td> 
+					<div id="ar" class="modal">
+						<b>Great for beginners!</b></br>
+						<b>Presented by:</b><br/>Sam Rodriguez, University of Arizona Libraries iSpace</br>
+						<b>Location: </b>ILC 130</br>
+						<b>You will need: </b> <br/>A computer with a webcam, 
+						<a href="https://store.unity.com/download?ref=personal" target="_blank"> Unity</a>, and a 
+						<a href="https://developer.vuforia.com/vui/auth/register" target="_blank"> Vuforia</a> account
+					</div>
+					<td class="noB"><a href="#ge" rel="modal:open">Growth Engineering</a></td> 
+					<div id="ge" class="modal">
+						<b>Lecture</b><br>
+						How to Build and Grow Products that Users Love<br>
+						<b>Presented by: </b><br>Ian Tracey, Software Engineer, Pinterest<br/>
+						<b>Location: </b>ILC 125
+					</div>
+					<td class="noB">Google Cloud Provider</td>
+					<th>21:30</th> 
 				</tr>
 				<tr>
-					<th class="noT noB">00:00</th> <td class="noT noB"></td> <td class="noT noB"></td> <td class="noT noB"> </td> <td class="noT noB"> </td>
+					<th>22:00</th> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td> 
+					<td class="noT"></td> 
+					<td class="noT"></td>
+					<th>22:00</th>
 				</tr>
 				<tr>
-					<th class="noT noB">00:30</th> <td class="noT noB"></td> <td class="noT noB"></td> <td class="noT noB"></td> <td class="noT noB"></td>
+					<th>22:30</th> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td> 
+					<td class="noB"><a href="#dapps" rel="modal:open">Decentralized Applications</a></td> 
+					<div id="dapps" class="modal">
+						<b>Presented by: </b>Hedera Hashgraph
+					</div>
+					<td class="noB"><b>Available</b></td>
+					<th>22:30</th>
 				</tr>
 				<tr>
-					<th>01:00</th> <td class="noT"></td> <td class="noT"> </td> <td class="noT"> </td> <td class="noT"> </td>
+					<th>23:00</th> 
+					<td class="noT"></td> 
+					<td class="noT"></td> 
+					<td class="noT"></td> 
+					<td class="noT"></td>
+					<th>23:00</th>
 				</tr>
-
+				<tr>
+					<th>23:30</th> 
+					<td class="noB"><a href="#js" rel="modal:open">JavaScript</a></td>
+					<div id="js" class="modal">
+						<b>Great for beginners!</b><br/>
+						The programming language for making interactive web pages.<br>
+						<b>Presented by: </b><br>Peter Fesz-Nguyen, Software Engineer, Simpleview<br/>
+						<b>Location: </b><br>
+						<b>You should know:</b> HTML/CSS (static web)<br>
+						<b>You will need: </b><a href="https://www.google.com/chrome/" target="_blank">Chrome web browser preferred</a>
+					</div>
+					<td class="noB"><a href="#vr" rel="modal:open">A-Frame Virtual Reality</a></td> 
+					<div id="vr" class="modal">
+						Build web VR experiences with A-Frame<br/>
+						<b>Presented by: </b>Jessica Coan<br>
+						<b>Location:</b><br>
+						<b>You should know: </b>HTML/CSS (static web), JavaScript<br>
+						<b>You will need: </b>We will be using <a href="https://glitch.com/" target="_blank">glitch</a> as an IDE and for hosting projects.<br>
+						<b>Additional resources: </b><br>
+						<a href="https://github.com/aframevr/aframe/tree/master/docs" target="_blank">A-Frame GitHub documentation</a><br>
+						<a href="https://aframe.io/community/" target="_blank">A-Frame community page</a>
+					</div>	
+					<td class="noB"><a href="#java" rel="modal:open">Java</a></td>
+					<div id="java" class="modal"> 
+						<b>Great for beginners!</b>
+					    <br/>Java is one of the most widely used object oriented programming languages.</br>
+						<b>Presented by: </b><br>Hannah Parraga, Director of Education Initiatives, Hack Arizona<br/>
+						<b>Location:</b><br>
+						<b>You will need: </b><br>
+						<a href="https://java.com/en/" target="_blank">The latest version of Java</a><br>
+						<a href="https://www.bluej.org/download/release-notes.html" target="_blank">An IDE of your choice</a><br>
+						<a href="https://github.com/first-byte/intro-java-madlibs" target="_blank">Project materials</a><br/>
+						<b>Additional resources: </b>	<a href="https://www.codecademy.com/learn/learn-java" target="_blank">Codeacademy</a>
+					    <a href="https://docs.oracle.com/javase/7/docs/api/" target="_blank">  Java API</a>
+					</div>
+					<td class="noB"><a href="#sf1" rel="modal:open">Deploying Applications with React and Gatsby</a></td>
+					<div id="sf1" class="modal">
+						<b>Presented by: </b>State Farm
+					</div>
+					<th>23:30</th>
+				</tr>
+				<tr>
+					<th class="noT noB">00:00</th> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td>
+					<th class="noT noB">00:00</th> 
+				</tr>
+				<tr>
+					<th class="noT noB">00:30</th> 
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td>
+					<td class="noT noB"></td> 
+					<td class="noT noB"></td>
+					<th class="noT noB">00:30</th> 
+				</tr>
+				<tr>
+					<th>01:00</th> 
+					<td class="noT"></td> 
+					<td class="noT"></td> 
+					<td class="noT"></td> 
+					<td class="noT"></td>
+					<th>01:00</th> 
+				</tr>
 				<tr> 
-					<th></th><th></th>	<th>Saturday</th>
+					<th></th><th>Saturday</th>
 				</tr>
 				<tr>
 					<th>10:00</th> <td class="noB">Python</td> <td class="noB">Simpleview</td> <td class="noB">Adobe Illustrator</td> <td class="noB">R</td>
@@ -77,10 +161,8 @@
 					<th>11:00</th> <td class="noT noB"></td> <td class="noT"> </td> <td class="noT noB"> </td> <td class="noT noB"> </td>
 				</tr>
 				<tr>
-					<th>11:30</th> <td class="noT"></td>	<td>jacobs - blockchain</td> <td class="noT"></td> <td class="noT"></td>
+					<th>11:30</th> <td class="noT"></td> <td>jacobs - blockchain</td> <td class="noT"></td> <td class="noT"></td>
 				</tr>
-				
-				
 				<tr>
 					<th>13:00</th> <td class="noB">Ruby</td> <td class="noB"> NLP</td> <td class="noB">Node.js </td> <td class="noB">Data Vis </td>
 				</tr>
@@ -138,8 +220,6 @@
 				<tr>
 					<th>23:00</th> <td class="noT"></td>  <td class="noT"></td> <td class="noT"></td> <td>Jacobs wireshark</td>
 				</tr>
-
-
 			</table> 
 		</div>
 	</body> 
