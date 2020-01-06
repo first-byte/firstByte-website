@@ -173,7 +173,7 @@ a.nav-link {
     }
 
     li.nav-item {
-      text-align: right;
+      text-align: right !important;
     }
 }
 
