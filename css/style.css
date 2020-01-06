@@ -207,9 +207,7 @@ a.nav-link {
     padding: 0.5rem;
   }
 
-  .nav-link {
-    flex: 1 1 auto !important;
-    text-align: right !important;
-    cursor: pointer;
+  .nav-item {
+    text-align: right;
   }
 }
