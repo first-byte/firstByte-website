@@ -208,8 +208,8 @@ a.nav-link {
   }
 
   .nav-item {
-    flex: 1 1 auto;
-    text-align: right;
+    flex: 1 1 auto !important;
+    text-align: right !important;
     cursor: pointer;
   }
 }
