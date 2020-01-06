@@ -206,4 +206,10 @@ a.nav-link {
   caption {
     padding: 0.5rem;
   }
+
+  .nav-item {
+    flex: 1 1 auto;
+    text-align: right;
+    cursor: pointer;
+  }
 }
