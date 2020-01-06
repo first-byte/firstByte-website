@@ -21,12 +21,12 @@ body, html {
 
 .bgimg-2 {
   background-image: url("../images/yes.jpg");
-  min-height: 400px;
+  min-height: 100%;
 }
 
 .bgimg-3 {
   background-image: url("../images/class.jpeg");
-  min-height: 400px;
+  min-height: 100%;
 }
 
 .container-wrapper--black { 
@@ -122,12 +122,48 @@ h2 img {
 .footer { 
   text-align: center;
   margin: 40px 0 40px 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .contact-list {
   margin: auto; 
   width: 400px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  flex: 1 1 auto;
+  text-align: center;
+  color: white;
+}
+
+a.nav-link:hover {
+  color: #ffbcb8;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a.nav-link {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.nav-pills {
+  color: White;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -146,5 +182,28 @@ h2 img {
   
   .about {
     text-align: none;
+  }
+
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    height: 80%;
+  }
+
+  .about {
+    padding: 0;
+  }
+
+  td {
+    font-size: 0.5rem;
+  }
+
+  .brand_img {
+    width: 80%;
+  }
+
+  th,
+  td,
+  caption {
+    padding: 0.5rem;
   }
 }

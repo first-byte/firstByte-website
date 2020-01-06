@@ -1,8 +1,3 @@
-table, td, th {
-    border: 1px dashed black;
-	text-align: center;
-}
-
 .noT {
 	border-top: none;
 }
@@ -19,20 +14,11 @@ table, td, th {
 	border-right: none;
 }
 
-th, td {
-	padding: 10px;
+.day_card {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
-
-.border img {
-  max-width: 80%;
-}
-
-table {
-    border: 1px solid black;
-	width: 100%;
-}
-
-
 
 body, html {
   height: 100%;
@@ -47,15 +33,54 @@ h2 {
 	letter-spacing: 5px;
 }
 
+a {
+  color: #282E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #282E34;
+  text-decoration: none;
+}
+
+.the_span {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  
+  z-index: 1;
+  
+    /* fixes overlap error in IE7/8, 
+       make sure you have an empty gif */
+}
+
 .bgimg-1 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../images/pic.jpg");
   min-height: 80%;
+}
+
+.btn-primary {
+  display: table;
+  margin: 15px auto 15px auto;
+  width: 25%;
+  background-color: #282E34;
+  color: white;
+  border-color: #282E34;
+  position: center;
+}
+
+.btn:hover {
+  background-color: #ffbcb8;
+  border-color: #ffbcb8;
+  color: black;
 }
 
 .caption {
@@ -77,10 +102,9 @@ h2 {
 
 .about {
 	color: #777; 
-	max-width: 95%;
 	background-color:white; 
 	text-align:center; 
-	padding: 50px 80px; 
+	padding: 50px; 
 	text-align: justify;
 }
 
@@ -92,10 +116,196 @@ h3 {
 	color: #111;
 }
 
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  flex: 1 1 auto;
+  text-align: center;
+  color: white;
+}
+
+.nav-link.active {
+  color: #ffbcb8 !important;
+}
+
+a.nav-link:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a.nav-link {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.nav-pills {
+  color: White;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+tr:nth-child(even) th {
+  color: #ccc;
+  font-weight: normal;
+}
+
+th,
+td,
+caption {
+  padding: 0.5rem 1rem;
+}
+
+tr {
+  width: 100%;
+}
+
+th {
+  font-weight: normal;
+  border-top: thin dotted #ccc;
+}
+
+td {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+  border-radius: 0.2rem;
+  width: 20%;
+  position: relative;
+  transition: transform 1s;
+  color: #282E34;
+  text-align: center;
+}
+
+td:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 3px rgb(181, 182, 158);
+}
+
+.stage-earth {
+  background-color: rgba(241,90,36, 0.7);
+}
+.stage-mercury {
+  background-color: rgba(223,147,169, 0.9);
+}
+.stage-venus {
+  background-color: rgba(230,116,29, 0.9);
+}
+.stage-mars {
+  background-color: rgba(191,27,71, 0.9);
+}
+.stage-jupiter {
+  background-color: rgba(129,212,250, 0.9);
+}
+.stage-saturn {
+  background-color: rgba(76, 223, 76, 0.7);
+}
+.stage-empty {
+  background-color: rgba(119, 119, 119, 0.9);
+}
+.stage-food {
+  border-color: black;
+}
+
+.stage-empty:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.stage-food:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.day_heading {
+  min-width: 8%;
+}
+
+.help {
+  position: center;
+  background-color: #282E34;
+  color: white;
+  padding: 5px;
+  min-height: 25px;
+  min-width: 40px;
+}
+
+.room_no {
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  min-width: 18.5%;
+}
+.modal a.close-modal {
+  top: 0px;
+  right: 0px;
+  background-image: url('../images/close.png');
+}
+
+.navbar-toggler {
+  display: flex;
+  justify-content: right;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+        height: 80%;
+    }
+
+    .about {
+      padding: 0;
+    }
+
+    td {
+      font-size: 0.45rem;
+    }
+
+    .room_no {
+      font-size: .5rem;
+      min-width: 16.1%;
+    }
+
+    .brand_img {
+      width: 80%;
+    }
+
+    th,
+    td,
+    caption {
+      padding: 0.5rem;
+    }
+
+    strong.fri {
+      font-size: 1rem;
+    }
+
+    strong.sat {
+      font-size: .70rem;
+    }
+
+    a.btn-primary {
+      width: 90%;
+    }
+    .nav-item {
+      flex: 1 1 auto;
+      text-align: right;
+      cursor: pointer;
     }
 }

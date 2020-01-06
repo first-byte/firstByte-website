@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>firstByte at Hack AZ</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<link rel="stylesheet" href="./css/hack-styles.css">
+</head>
+
+<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<span class="navbar-brand"></span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#at">At Hack Arizona</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#classroom">In Your Classroom</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="hack-schedule.html">Workshop Schedule</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://goo.gl/forms/h2w2kOnqNpL4UbNK2">Schedule A Workshop</a>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
+
+<!--
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav nav-pills nav-fill">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#at">At Hack Arizona</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#classroom">In Your Classroom</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="hack-schedule.html">Workshop Schedule</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://goo.gl/forms/h2w2kOnqNpL4UbNK2">Schedule A Workshop</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>-->
+	<div class="bgimg-1">
+		<div class="caption">
+			<img src="./images/title.png" class="brand_img" />
+		</div>
+	</div>
+	<div class="about">
+		<h3>Hack Arizona 2019 Workshop Schedule</h3>
+		<a href="./images/advice.pdf" target="_blank" class="btn btn-primary">Not sure which workshops to attend?</a>
+		<table class="card day_card">
+			<caption class="noT noB noL noR">
+				<strong class="fri">Friday</strong>
+				<span>
+					<span class="room_no">GS 201</span>
+					<span class="room_no">GS 203</span>
+					<span class="room_no">GS 211</span>
+					<span class="room_no">GS 213</span>
+					<span class="room_no">GS 228</span>
+				</span>
+			</caption>
+
+			<body class="table_body">
+				<tr>
+					<th>8:00</th>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No scheduling</span>
+					</td>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-empty">
+						<span>No scheduling</span>
+					</td>
+					<td colspan="1" rowspan="12" class="stage-empty">
+						<span>No scheduling</span>
+					</td>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>8:30</th>
+					<td colspan="1" rowspan="5" class="stage-saturn">
+						<a href="#privacy" rel="modal:open"><span class="the_span"></span>Going on the Offense with Privacy</a>
+					</td>
+					<div id="privacy" class="modal">
+						<b>All levels</b>
+						<br />We will talk first about
+						what it means to go on offense in response to privacy incursions, and
+						why this approach has remained a blindspot in PET research. Then we will
+						explore going on offense in practice, writing a simple tool to detect
+						snooping on our local connection, and working to attribute the attack.
+						Once the adversary is identified, we will undermine their collection on
+						us in a variety of ways.<br />
+						<b>Presented by:</b><br>David Sidi<br />
+						<b>Location:</b>GS 201<br />
+						<b>You will need: </b><a href="https://www.overleaf.com/" target="_blank">An Overleaf Account</a><br />
+						<!--
+						<b>Extra resources:</b>
+						<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+						<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+						-->
+					</div>
+					<td colspan="1" rowspan="4" class="stage-mars">
+						<a href="#swift" rel="modal:open"><span class="the_span"></span>Coding in Swift</a>
+					</td>
+					<div id="swift" class="modal">
+							<b>All levels</b><br />
+							<b>Presented by:</b><br>Robert Johnson<br />
+							<b>Location:</b>GS 203<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					<td colspan="1" rowspan="4" class="stage-mercury">
+						<a href="#py" rel="modal:open"><span class="the_span"></span>Python</a>
+					</td>
+					<div id="py" class="modal">
+							<b>Beginner</b>
+							<br />Learn one of the most widely-used object-oriented languages with a blank slate introduction from Hack Arizona's former Education Director-Experience<br />
+							<b>Presented by:</b><br>Hannah Parraga<br />
+							<b>Location:</b>GS 228<br />
+							<b>You will need: </b><a href="https://www.python.org/downloads/" target="_blank">Python3</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+				</tr>
+				<tr>
+					<th>9:00</th>
+				</tr>
+				<tr>
+					<th>09:30</th>
+				</tr>
+				<tr>
+					<th>10:00</th>
+					<td colspan="1" rowspan="2" class="stage-venus">
+						<a href="#modular_mining" rel="modal:open"><span class="the_span"></span>Modular Mining</a>
+					</td>
+					<div id="modular_mining" class="modal">
+						<b>All levels</b><br />
+						<b>Presented by:</b><br>Modular Mining<br />
+						<b>Location:</b>GS 211<br />
+						<!--
+						<b>Extra resources:</b>
+						<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+						<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+						-->
+					</div>
+				</tr>
+				<tr>
+					<th>10:30</th>
+					<td colspan="1" rowspan="7" class="stage-empty">
+							<span>No Scheduling</span>
+						</td>
+					<td colspan="1" rowspan="4" class="stage-jupiter">
+						<a href="#html_css" rel="modal:open"><span class="the_span"></span>HTML/CSS</a>
+					</td>
+					<div id="html_css" class="modal">
+						<b>Beginner</b>
+						<br />The journey of a million miles begins with a cascading style sheet. Learn how to make your first website as Hannah explores the most basic building blocks of the web!<br />
+						<b>Presented by:</b><br>Hannah Parraga<br />
+						<b>Location:</b>GS 228<br />
+						<b>You will need: </b><a href="https://www.python.org/downloads/" target="_blank">Web Browser</a><br />
+						<!--
+						<b>Extra resources:</b>
+						<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+						<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+						-->
+					</div>
+				</tr>
+				<tr>
+					<th>11:00</th>
+					<td colspan="1" rowspan="3" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="6" class="stage-empty">
+							<span>No Scheduling</span>
+						</td>
+				</tr>
+				<tr>
+					<th>11:30</th>
+				<tr>
+					<th>12:00</th>
+				</tr>
+				<tr>
+					<th>12:30</th>
+					<td colspan="1" rowspan="3" class="stage-earth">
+						<a href="#latex" rel="modal:open"><span class="the_span"></span>Typesetting with LaTeX</a>
+					</td>
+					<div id="latex" class="modal">
+							<b>All levels</b>
+							<br />Need to give your math homework that tiny bit of formality that hides the informality of your proofs? Feeling inferior to the grad students in your co-taught econ classes who only hand in typeset answers? Trying not to look like a complete schmuck when you TA for your freshman CSC 110 professor and need to write-up test solutions? Dive into the late night with Chauncey, one Hack AZ's very own, as he explores the fascinating and rewarding world of LaTeX (If you haven't had the absolute priviledge of being corrected by your upperclassmen overlords, it is pronounced "Law-Tech")<br />
+							<b>Presented by:</b><br>Chauncey Delos Santos<br />
+							<b>Location:</b>GS 201<br />
+							<b>You will need: </b><a href="https://www.overleaf.com/" target="_blank">An Overleaf Account</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					<td colspan="1" rowspan="3" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>1:00</th>
+				</tr>
+				<tr>
+					<th>1:30</th>
+				</tr>
+			</body>
+		</table>
+		<table class="card day_card">
+			<caption class="noT noB noL noR day_heading">
+				<strong class="sat">Saturday</strong>
+				<span class="room_no">GS 201</span>
+				<span class="room_no">GS 203</span>
+				<span class="room_no">GS 211</span>
+				<span class="room_no">GS 213</span>
+				<span class="room_no">GS 228</span>
+			</caption>
+
+			<body class=".table_body">
+				<tr>
+					<th>8:00</th>
+					<td colspan="1" rowspan="8" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-mars">
+						<a href="#r" rel="modal:open"><span class="the_span"></span>R</a>
+						<div id="r" class="modal">
+							<b>All levels</b>
+							<br />R is a powerful language for managing, analyzing, and visualizing complex data. However, some of the commands in R are esoteric or just plain confusing. The tidyverse package for R includes several helpful functions that make it easier to manipulate, summarize, and visualize your data. In this lesson we will use these functions to create plots from summary statistics.<br />
+							<b>Presented by:</b><br>Jefferey Oliver<br />
+							<b>Location:</b>GS 211<br />
+							<b>You will need: </b><a href="https://www.r-project.org/" target="_blank">R,R-Studio</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-saturn">
+						<a href="#r" rel="modal:open"><span class="the_span"></span>Rapid Development for Small Satellites</a>
+						<div id="r" class="modal">
+							<b>All levels</b>
+							<br />A talk about the challenges in designing, development and operating a small satellite.<br />
+							<b>Presented by:</b><br>Rincon Research<br />
+							<b>Location:</b>GS 213<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-jupiter">
+						<a href="#java" rel="modal:open"><span class="the_span"></span>Java</a>
+						<div id="java" class="modal">
+							<b>Beginner</b>
+							<br />Dive into another one of the world's most widely used object-oriented languages.<br />
+							<b>Presented by:</b><br>Hannah Parraga<br />
+							<b>Location:</b>GS 228<br />
+							<b>You will need: </b><a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">Latest version of Java, an IDE</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>8:30</th>
+					<td colspan="1" rowspan="5" class="stage-venus">
+						<a href="#js" rel="modal:open"><span class="the_span"></span>JS</a>
+						<div id="js" class="modal">
+							<b>Beginner Who Knows HTML and CSS</b>
+							<br />Throw some interactivity into your webpage with this introduction to JavaScript.<br />
+							<b>Presented by:</b><br>Peter Fesz-Nguyen<br />
+							<b>Location:</b>GS 203<br />
+							<b>You will need: </b><a href="https://www.google.com/chrome/" target="_blank">Chrome Web Broswer</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>9:00</th>
+					<td colspan="1" rowspan="6" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>9:30</th>
+				</tr>
+				<tr>
+					<th>10:00</th>
+					<td colspan="1" rowspan="2" class="stage-earth">
+						<a href="#modular_mining" rel="modal:open"><span class="the_span"></span>Modular Mining</a>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-saturn">
+						<a href="#springboot" rel="modal:open"><span class="the_span"></span>Springboot</a>
+						<div id="springboot" class="modal">
+							<b>All Levels</b><br />
+							<b>Presented by:</b><br>Hannh Parraga<br />
+							<b>Location:</b>GS 228<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>10:30</th>
+				</tr>
+				<tr>
+					<th>11:00</th>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>11:30</th>
+				</tr>
+				<tr>
+					<th>12:00</th>
+					<td colspan="5" rowspan="2" class="stage-food">
+						<span>Lunch</span>
+					</td>
+				</tr>
+				<tr>
+					<th>12:30</th>
+				</tr>
+				<tr>
+					<th>1:00</th>
+					<td colspan="1" rowspan="2" class="stage-jupiter">
+						<a href="#usaa" rel="modal:open"><span class="the_span"></span>USAA</a>
+						<div id="usaa" class="modal">
+							<b>All Levels</b><br />
+							<b>Presented by:</b><br>USAA<br />
+							<b>Location:</b>GS 201<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="3" class="stage-mars">
+						<a href="#data_vis" rel="modal:open"><span class="the_span"></span>Data Visualization</a>
+						<div id="data_vis" class="modal">
+							<b>All Levels</b><br />
+							<b>Presented by:</b><br>Kate Isaacs<br />
+							<b>Location:</b>GS 211<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-venus">
+						<span>Creating Art with ML with Ruby</span>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>1:30</th>
+				</tr>
+				<tr>
+					<th>2:00</th>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-mercury">
+						<a href="#containers" rel="modal:open"><span class="the_span"></span>Getting Started with Containers</a>
+						<div id="containers" class="modal">
+							<b>All levels</b>
+							<br />In this talk, I will discuss basics of containers, how are they different from virtualization, evolution of Kubernetes and touch container offerings on AWS.							<br />
+							<b>Presented by:</b><br>Satya Vajrapu from Amazon<br />
+							<b>Location:</b>GS 203<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="3" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-earth">
+						<a href="#golf" rel="modal:open"><span class="the_span"></span>Golf Code Challenge</a>
+						<div id="golf" class="modal">
+							<b>Beginner to Intermediate</b>
+							<br />Compete with your peers in a race to implement algorithms. Shortcuts and risks are encouraged. As long as it gets the job done.<br />
+							<b>Presented by:</b><br>Tyler Linkemann<br />
+							<b>Location:</b>GS 228<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>2:30</th>
+					<td colspan="1" rowspan="4" class="stage-venus">
+						<a href="#cpp" rel="modal:open"><span class="the_span"></span>C++</a>
+						<div id="cpp" class="modal">
+							<b>Beginner</b><br />
+							<b>Location:</b>GS 201<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>3:00</th>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="2" class="stage-jupiter">
+						<a href="#ssl" rel="modal:open"><span class="the_span"></span>How does SSL Work?</a>
+						<div id="ssl" class="modal">
+							<b>All Levels</b>
+							<br /> In this talk, I will explain how SSL works on a granular level. I will include a hands on demo to display a complete SSL workflow from scratch.<br />
+							<b>Presented by:</b><br>Manish Kumar from Amazon<br />
+							<b>Location:</b>GS 211<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>3:30</th>
+					<td colspan="1" rowspan="3" class="stage-mars">
+						<a href="#aws" rel="modal:open"><span class="the_span"></span>Case Study: How a modern software application is developed on Amazon Web Services</a>
+						<div id="aws" class="modal">
+							<b>All Levels</b>
+							<br />(Actual Time: 3:45-4:45) <br /> In this talk, we will walk through how a traditional enterprise level application development is evolved to adopt the cloud computing practices. Especially the talk will focus on the evolution of a modern software application is built using the various AWS services.</brs><br />
+							<b>Location:</b>GS 213<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>4:00</th>
+					<td colspan="1" rowspan="4" class="stage-saturn">
+						<a href="#unity" rel="modal:open"><span class="the_span"></span>Unity Workshop</a>
+						<div id="unity" class="modal">
+							<b>All Levels</b>
+							<br /><b>Location:</b>GS 203<br />
+							<b>Presented by:</b><br>Jessica Coan<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="6" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="22" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>4:30</th>
+					<td colspan="1" rowspan="5" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>5:00</th>
+					<td colspan="1" rowspan="20" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>5:30</th>
+				</tr>
+				<tr>
+					<th>6:00</th>
+					<td colspan="1" rowspan="2" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>6:30</th>
+				</tr>
+				<tr>
+					<th>7:00</th>
+					<td colspan="1" rowspan="4" class="stage-earth">
+						<a href="#keras" rel="modal:open"><span class="the_span"></span>Keras</a>
+						<div id="keras" class="modal">
+							<b>Intermediate Python/Coding Experience</b>
+							<br />a hands-on introduction to fully-connected and convolutional neural networks with the Keras API. Neural networks will be presented from a simple, mathematical viewpoint, and then the Keras sequential and functional APIs will be applied to the classic MNIST dataset for handwritten digit recognition. In the end, attendees will be able to create basic neural networks for image recognition tasks and have an elementary understanding of neural network principles.<br />
+							<b>Presented by:</b><br>Sean Current<br />
+							<b>Location:</b>GS 201<br />
+							<b>You will need: </b><a href="#" target="_blank">Python with Tensorflow and Keras Installed</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="3" class="stage-jupiter">
+						<a href="#databases" rel="modal:open"><span class="the_span"></span>Intro to Databases</a>
+						<div id="databases" class="modal">
+							<b>Presented by:</b><br>Hannah Parraga<br />
+							<b>Location:</b>GS 203<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+					<td colspan="1" rowspan="4" class="stage-venus">
+						<a href="#blockchain" rel="modal:open"><span class="the_span"></span>From on prem, to public clouds, and blockchains - what’s the future of infrastructure?</a>
+						<div id="blockchain" class="modal">
+							<b>All Levels</b>
+							<br />In the past two decades we’ve shifted our compute from on premise servers to shared public clouds. What is the next generation of infrastructure going to look like? In this talk, Cooper Kunz, a developer evangelist at Hedera Hashgraph and previous organizer of Hack Arizona, will dive into the technologies moving us beyond APIs and trusted 3rd parties to the next era of the web, web 3. This includes projects like Tim Berners-Lee’s Solid, the Ethereum Blockchain, the Interplanetary File System (IPFS), and more. Finally, we’ll dive into hands on examples with JavaScript, showing how easy it is to use and add to your project or resume. <br />
+							<b>Presented by:</b><br>Cooper Kunz<br />
+							<b>Location:</b>GS 211<br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>7:30</th>
+				</tr>
+				<tr>
+					<th>8:00</th>
+				</tr>
+				<tr>
+					<th>8:30</th>
+					<td colspan="1" rowspan="13" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>9:00</th>
+					<td colspan="1" rowspan="1" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+					<td colspan="1" rowspan="6" class="stage-mercury">
+						<a href="#nlp" rel="modal:open"><span class="the_span"></span>Natural Language Processing</a>
+						<div id="nlp" class="modal">
+							<b>Intermediate Python/Coding Experience</b>
+							<br />An overview of methods in machine learning with an emphasis on natural language processing, including decision trees, gradient descent, linear regression, neural networks, clustering, word embeddings (Word2Vec), Markov Models, and the perceptron algorithm<br />
+							<b>Presented by:</b><br>Sean Current<br />
+							<b>Location:</b>GS 211<br />
+							<b>You will need: </b><a href="#" target="_blank">python
+									, NumPy
+									, Pandas
+									, scikit-learn
+									, NLTK
+									, Jupyter</a><br />
+							<!--
+							<b>Extra resources:</b>
+							<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+							<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+							-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>9:30</th>
+					<td colspan="1" rowspan="3" class="stage-mars">
+						<a href="#esoteric" rel="modal:open"><span class="the_span"></span>Esoteric Programming Language</a>
+						<div id="esoteric" class="modal">
+								<b>Presented by:</b><br>Colton Flowers<br />
+								<b>Location:</b>GS 201<br />
+								<!--
+								<b>Extra resources:</b>
+								<a href="https://www.w3schools.com/" target="_blank">W3Schools </a>
+								<a href="https://guides.github.com/features/pages/" target="_blank">Github Pages</a>
+								-->
+							</div>
+					</td>
+				</tr>
+				<tr>
+					<th>10:00</th>
+				</tr>
+				<tr>
+					<th>10:30</th>
+				</tr>
+				<tr>
+					<th>11:00</th>
+					<td colspan="1" rowspan="8" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>11:30</th>
+				</tr>
+				<tr>
+					<th>12:00</th>
+					<td colspan="1" rowspan="6" class="stage-empty">
+						<span>No Scheduling</span>
+					</td>
+				</tr>
+				<tr>
+					<th>12:30</th>
+				</tr>
+				<tr>
+					<th>1:00</th>
+				</tr>
+				<tr>
+					<th>1:30</th>
+				</tr>
+				<tr>
+					<th>2:00</th>
+				</tr>
+				<tr>
+					<th>2:30</th>
+				</tr>
+			</body>
+		</table>
+	</div>
+</body>
+
+</html>
