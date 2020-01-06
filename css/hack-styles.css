@@ -233,7 +233,8 @@ td:hover {
 }
 
 .day_heading {
-  min-width: 8%;
+  min-width: 7.5%;
+  max-width: 7.5%;
 }
 
 .help {
@@ -297,7 +298,7 @@ td:hover {
     }
 
     strong.sat {
-      font-size: .70rem;
+      font-size: .69rem;
     }
 
     a.btn-primary {
