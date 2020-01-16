@@ -249,7 +249,7 @@ td:hover {
   font-weight: bold;
   display: inline-block;
   text-align: center;
-  min-width: 23.75%;
+  min-width: 23%;
 }
 
 .modal a.close-modal {
