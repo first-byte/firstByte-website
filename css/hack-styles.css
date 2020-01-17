@@ -185,7 +185,7 @@ td {
   font-weight: bold;
   line-height: 1.4;
   border-radius: 0.2rem;
-  width: 25%;
+  width: 20%;
   position: relative;
   transition: transform 1s;
   color: #282E34;
@@ -249,7 +249,7 @@ td:hover {
   font-weight: bold;
   display: inline-block;
   text-align: center;
-  min-width: 23%;
+  min-width: 18.5%;
 }
 
 .modal a.close-modal {
