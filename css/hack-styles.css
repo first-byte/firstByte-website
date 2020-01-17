@@ -278,6 +278,10 @@ td:hover {
       font-size: 0.45rem;
     }
 
+    th {
+      font-size: 0.45rem;
+    }
+
     .room_no {
       font-size: .48rem;
       min-width: 16.0%;
