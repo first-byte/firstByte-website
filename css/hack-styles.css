@@ -222,6 +222,10 @@ td:hover {
   border-color: black;
 }
 
+.stage-cancel {
+  background-color: red;
+}
+
 .stage-empty:hover {
   transform: none;
   box-shadow: none;
